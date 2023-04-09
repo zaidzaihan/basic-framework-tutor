@@ -2,17 +2,17 @@ GET  http://localhost:3000/
 
 ###
 
-POST  http://localhost:3000/register/
+POST  http://localhost:3000/login/
 Content-Type: application/json
 
-# {
-#     "username" : "Zaid",
-#     "password" : "password"
-# }
-
 {
-    "newusername": "abu",
-    "newpassword": "gaming",
-    "newname": "orang hensem",
-    "newEmail" : "orangmarikh@gmail.com"
+    "username" : "Zaid",
+    "password" : "password"
 }
+
+# {
+#     "newusername": "abu",
+#     "newpassword": "gaming",
+#     "newname": "orang hensem",
+#     "newEmail" : "orangmarikh@gmail.com"
+# }
